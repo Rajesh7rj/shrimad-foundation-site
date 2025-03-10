@@ -16,7 +16,7 @@ const RegisterNow: React.FC<RegisterNowProps> = ({
 }) => {
   return (
     <div className="bg-[#FFF6E6]">
-    <div id="register" className="flex flex-col items-center justify-center bg-[#FFF6E6] py-20 mx-2">
+    <div id="register" className="flex flex-col items-center justify-center bg-[#FFF6E6] pt-30 pb-20 mx-2">
       <motion.h2
         className="text-center text-3xl md:text-4xl font-bold text-[#A10C22]"
         initial={{ opacity: 0, y: 50 }}

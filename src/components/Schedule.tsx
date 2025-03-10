@@ -45,8 +45,8 @@ export default function Schedule() {
 
   return (
     <div className='bg-[#FFFFFF]'>
-      <div id="schedule" className="container mx-auto min-h-screen bg-[#FFFFFF] text-white p-8">
-        <h2 className="text-3xl font-bold mb-6 text-[#9E1F22] text-center">Schedule</h2>
+      <div id="schedule" className="container mx-auto min-h-screen bg-[#FFFFFF] text-white p-8 py-24">
+        <h2 className="text-3xl font-bold mb-12 text-[#9E1F22] text-center">Schedule</h2>
         
         <div className='flex flex-col sm:flex-row justify-between mb-6'>
           <div className="flex flex-col text-lg mb-6 sm:mb-0]">
@@ -99,7 +99,7 @@ export default function Schedule() {
           <div className="w-full sm:w-2/5 lg:w-1/3 h-64 sm:h-auto">
         <img
           alt="Shobhayatra_New_047ccb957d"
-          className="w-full h-full object-cover rounded-tr-xl rounded-br-xl"
+          className="w-full h-full object-cover rounded-br-xl rounded-bl-xl sm:rounded-tr-xl  sm:rounded-bl-[0px]"
           src="https://d20iun51fib1lt.cloudfront.net/Shobhayatra_New_047ccb957d.jpg"
         />
         </div>
